@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Displays the status of the build using these hip new shields everyone uses
 """
-from .shields import ShieldStatusResource
+from shields import ShieldStatusResource
 
 
 def bind(webstatus, path="badge", left_text=None, left_color=None,
